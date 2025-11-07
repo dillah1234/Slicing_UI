@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
             SizedBox(
               width: 150, 
               height: 150,
-              child: Image.asset('assets/KAUPAYS.png'),
+              child: Lottie.asset('assets/train.json'),
             ),
 
             Text("",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         nextScreen: const Homepage1(),
         splashIconSize: 200,
         backgroundColor: Colors.white,
-        duration: 3000, // durasi 3 detik
+        duration: 3000, 
         splashTransition: SplashTransition.fadeTransition,
       ),
     );
