@@ -1,16 +1,17 @@
-# slicing_ui3
+# 🧩 Slicing UI 3
 
-A new Flutter project.
+A clean and simple Flutter UI project for practicing layout design using basic widgets.
 
-## Getting Started
+## 🚀 Features
+- Built entirely with Flutter’s core widgets (no external UI packages)
+- Responsive layout structure
+- Organized and easy-to-read code
 
-This project is a starting point for a Flutter application.
+## 💡 Getting Started
+Clone the repo and run the project:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/dillah1234/slicing_ui3.git
+cd slicing_ui3
+flutter pub get
+flutter run
