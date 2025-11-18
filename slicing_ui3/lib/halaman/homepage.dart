@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
-import 'package:lucide_icons_flutter/test_icons.dart';
+// import 'package:lucide_icons_flutter/test_icons.dart';
 import 'package:slicing_ui3/komponen/banner.dart';
 import 'package:slicing_ui3/komponen/kartukai.dart';
 import 'package:slicing_ui3/komponen/menuireng.dart';
