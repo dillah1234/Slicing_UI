@@ -4,6 +4,7 @@ import 'package:lottie/lottie.dart';
 import 'package:slicingui4/halaman/home.dart';
 import 'package:slicingui4/halaman/profil.dart';
 import 'package:slicingui4/halaman/promo.dart';
+import 'package:slicingui4/latihan.dart';
 // import 'package:slicing_ui3/halaman/homepage.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
             Text("",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)
           ],
         ),
-        nextScreen: navigatorbawah(),
+        nextScreen: ,
         splashIconSize: 200,
         backgroundColor: Colors.white,
         duration: 3000, 

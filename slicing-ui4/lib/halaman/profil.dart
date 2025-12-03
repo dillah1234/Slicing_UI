@@ -32,7 +32,7 @@ class Profil extends StatelessWidget {
                     color: Colors.grey.shade300,
                     shape: BoxShape.circle,
                   ),
-                  child: Icon(LucideIcons.personStanding, size: 40, color: Colors.grey),
+                  child: Icon(LucideIcons.user, size: 40, color: Colors.grey),
                 ),
                 SizedBox(width: 15),
 
