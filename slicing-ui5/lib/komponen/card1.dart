@@ -11,44 +11,41 @@ class Card1 extends StatelessWidget {
       children: [
         Row(
           children: [
-            // ini yang 1
+            //ini yang pertama
             part2(
-              text: "3.726",
+              text: "3.869",
               icons: "assets/dollar.png",
               warna: Colors.blueAccent,
               labels: "Tukar Point",
             ),
-            SizedBox(width: 5,),
+            // ini yang kedua
             Spacer(),
             SizedBox(height: 20, child: VerticalDivider()),
-            // ini yang 2
             part2(
               text: "9",
               icons: "assets/voucher.png",
               warna: Colors.black,
-              labels: "voucher",
+              labels: "Voucher",
             ),
-            // ini yang 3
-            SizedBox(width: 5),
+            SizedBox(width: 15),
+            //ini yang ketiga
             SizedBox(height: 20, child: VerticalDivider()),
-            Spacer(),
             part2(
               text: "2",
               icons: "assets/stamp.png",
               warna: Colors.black,
-              labels: "stamp",
+              labels: "Stamp",
             ),
-            // ini yang 4
-            SizedBox(width: 5),
+            SizedBox(width: 15),
+            //ini yang ke empat
             SizedBox(height: 20, child: VerticalDivider()),
-            Spacer(),
             part2(
               text: "0",
               icons: "assets/star.png",
               warna: Colors.black,
-              labels: "star",
+              labels: "Star",
             ),
-            SizedBox(width: 20),
+            SizedBox(width: 15),
           ],
         ),
         Divider(),
@@ -63,10 +60,10 @@ class Card1 extends StatelessWidget {
                 color: ClassName.color2,
               ),
             ),
-            Icon(Icons.arrow_back_ios_rounded, size: 12),
+            Icon(Icons.arrow_forward_ios_rounded, size: 12),
             Spacer(),
             Container(
-              padding: EdgeInsets.all(10),
+              padding: EdgeInsets.all(5),
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.grey, width: 0.5),
                 borderRadius: BorderRadius.circular(5),
@@ -74,7 +71,7 @@ class Card1 extends StatelessWidget {
               child: Row(
                 spacing: 5,
                 children: [
-                  Image.asset("assets/product.png", height: 15),
+                  Image.asset("assets/barcode.png", height: 13),
                   Text(
                     "Barcode Member",
                     style: GoogleFonts.openSans(
