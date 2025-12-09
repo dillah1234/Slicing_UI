@@ -122,8 +122,8 @@ class Appbar extends StatelessWidget {
           right: 20,
           child: Container(
             width: double.infinity,
-            // height: 150, 
 
+            // height: 150,
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 begin: AlignmentGeometry.topCenter,
@@ -149,12 +149,12 @@ class Appbar extends StatelessWidget {
                     // mainAxisAlignment:
                     //     MainAxisAlignment.spaceBetween, // opsional
                     children: [
-                      Text("hai, bedil", style: ClassName.style2),
+                      Text("hai, ibraham", style: ClassName.style2),
                       Spacer(),
-                      Text("profesional", style: ClassName.style2),
+                      Text("newbie", style: ClassName.style2),
                     ],
                   ),
-                  SizedBox(height: 10), 
+                  SizedBox(height: 10),
                   Container(
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(

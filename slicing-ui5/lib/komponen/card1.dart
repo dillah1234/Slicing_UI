@@ -71,11 +71,11 @@ class Card1 extends StatelessWidget {
               child: Row(
                 spacing: 5,
                 children: [
-                  Image.asset("assets/barcode.png", height: 13),
+                  Image.asset("assets/barcode.png", height: 15),
                   Text(
                     "Barcode Member",
                     style: GoogleFonts.openSans(
-                      fontSize: 8,
+                      fontSize: 10,
                       fontWeight: FontWeight.w400,
                       color: Colors.blue[900],
                     ),

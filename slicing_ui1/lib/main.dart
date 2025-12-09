@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:slicing_ui1/halaman/page_1.dart';
 import 'package:lottie/lottie.dart';
+import 'package:slicing_ui1/halaman/task.dart';
 // import 'package:slicing_ui1/komponen/komponen_ui1.dart';
 // import 'package:slicing_ui1/slicing1.dart';
 
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
             Text("MySlicingKu",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)
           ],
         ),
-        nextScreen: const Page01(),
+        nextScreen: Task(),
         splashIconSize: 200,
         backgroundColor: Colors.white,
         duration: 3000, 

@@ -8,8 +8,9 @@ class Menuapps extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(10),
+      padding: EdgeInsets.all(15),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           Text(
             "Lihat Semua Promo",
@@ -19,7 +20,7 @@ class Menuapps extends StatelessWidget {
               color: Colors.blue[900],
             ),
           ),
-          SizedBox(height: 15,),
+          SizedBox(height: 20,),
           // menu apps
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -30,7 +31,7 @@ class Menuapps extends StatelessWidget {
               menu(iconapps: "assets/bonus.png", labels: "Bonus Point")
             ],
           ),
-          SizedBox(height: 15,),
+          SizedBox(height: 10,),
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               menu(iconapps: "assets/gadgets.png", labels: "produk online"),
@@ -56,11 +57,12 @@ class menu extends StatelessWidget {
     return Column(
       children: [
         Container(
-          height: 50,
-          width: 50,
+          height: 46,
+          width: 46,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             color: ClassName.color4,
+            image: DecorationImage(image: AssetImage(iconapps))
           ),
           // child: Icon(Icons.home_filled),
         ),

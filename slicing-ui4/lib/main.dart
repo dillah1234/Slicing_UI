@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
             Text("",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)
           ],
         ),
-        nextScreen: ,
+        nextScreen: Home(),
         splashIconSize: 200,
         backgroundColor: Colors.white,
         duration: 3000, 
